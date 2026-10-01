@@ -1,0 +1,65 @@
+Virtual Assistant (2024/10/07 17:44:58): Hello, I'm DVLA's Virtual Assistant.
+
+Virtual Assistant (2024/10/07 17:44:58): Please confirm if you are the licence holder/applicant by clicking one of the following options:
+
+You (2024/10/07 17:45:00): Yes
+
+Virtual Assistant (2024/10/07 17:45:01): In order for the advisor to assist you further, can you please provide the following information. Please type your response:
+
+Virtual Assistant (2024/10/07 17:45:01): Your full name (including any middle names):
+
+You (2024/10/07 17:45:10): Sorin Rotaru
+
+Virtual Assistant (2024/10/07 17:45:10): Your date of birth: 
+Please use the format DD/MM/YYYY
+
+You (2024/10/07 17:45:19): 007/06/1980
+
+Virtual Assistant (2024/10/07 17:45:20): Your current address in full (including postcode):
+
+You (2024/10/07 17:45:47): 57 Tonbridge Drive, Basildon, SS156ND
+
+Virtual Assistant (2024/10/07 17:45:48): Your previous address in full (including postcode):
+If not applicable, please type N/A:
+
+You (2024/10/07 17:46:13): 140 Prospect Road, Woodford Green, IG87NF
+
+Virtual Assistant (2024/10/07 17:46:14): Please also confirm what you last entered online before receiving the error message:
+
+You (2024/10/07 17:46:52): My personal information
+
+Virtual Assistant (2024/10/07 17:46:53): What error message you received:
+
+You (2024/10/07 17:47:08): Technical issue try later
+
+Virtual Assistant (2024/10/07 17:47:09): Please also confirm your enquiry in full:
+
+You (2024/10/07 17:47:23): Lost my driver licence
+
+Virtual Assistant (2024/10/07 17:47:24): Chat summary:
+
+Licence Holder/Applicant: Yes
+Full Name: Sorin Rotaru
+Date of Birth: 007/06/1980
+Current Full Address: 57 Tonbridge Drive, Basildon, SS156ND
+Previous Full Address: 140 Prospect Road, Woodford Green, IG87NF
+
+Enquiry: Lost my driver licence
+Last entered online: My personal information
+Error message received: Technical issue try later
+
+Virtual Assistant (2024/10/07 17:47:26): You have been added to a queue. Please be patient with us during busy periods, where your wait might be longer than usual, but please rest assured an advisor will answer you as soon as possible.
+Please note: this screen will not update whilst you are waiting in the queue and you will not receive any further messages until you have connected to an advisor.
+
+Agent (2024/10/07 17:58:21): Hello, you're through to Kirsty, please give me a moment while I read through the chat details.
+
+Agent (2024/10/07 17:59:54): Do you need to make any other changes, such as updating the name, address or photograph on your driving licence? (Photo updates are only required if you have not done so in the last 10 years)
+
+Agent (2024/10/07 18:02:14): Do you still require my assistance?
+
+Agent (2024/10/07 18:03:11): As I have not received a response, I am now ending the chat. Thank you for your enquiry, goodbye.
+ 
+Shortly after this chat ends, you will be asked to complete a short survey regarding your experience today. Please take the time to fill this in to help us better our services.
+
+CSAT Survey (2024/10/07 18:03:12): Thank you for messaging the DVLA. To help us improve your experience, please fill out this short survey
+

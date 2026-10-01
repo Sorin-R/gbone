@@ -1,0 +1,216 @@
+/* Responsive styles for smaller screens max width 1024px */
+@media (max-width: 1024px) {
+    header {
+        justify-content: space-between;
+    }
+
+    .logo p {
+        display: none;
+    }
+
+    /* Show menu icon for smaller screens */
+    .menu-icon {
+        display: block;
+        font-size: 50px;
+    }
+
+    /* Make the navigation menu a vertical drawer */
+    nav ul {
+        display: block;
+        flex-direction: column;
+        width: 90%;
+        height: 100vh;
+        background-color: #13b67a;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        transform: translateX(-100%);
+        transition: transform 0.5s ease-in-out;
+        z-index: 1000000;
+    }
+
+    nav ul li {
+        text-align: center;
+        margin: 0;
+    }
+
+    nav ul li a {
+        font-size: 1.56rem;
+    }
+
+    /* Show the menu when active */
+    nav ul.menu.show {
+        transform: translateX(0);
+    }
+    /* 
+    main{
+        padding: 0;
+    } */
+
+    /* #contacts {
+        margin-top: 10px;
+        overflow: scroll;
+    }
+
+    #contacts .contacts-block {
+        margin-top: 0;
+        min-width: 30%;
+    }
+
+    #contacts .contacts-block-white {
+        margin-top: 0;
+        margin-bottom: 0;
+        min-width: 100%;
+        justify-content: center;
+    }
+
+    #contacts .contacts-cover {
+        display: none;
+    } */
+
+    #contacts {
+        align-items: center;
+        justify-content: center;
+    }
+
+    #contacts .contacts-block {
+        width: 30%;
+        min-width: 250px;
+    }
+
+    #contacts .contacts-block-white {
+        min-width: 70%;
+    }
+
+    #contacts .contacts-cover {
+        min-width: 200px;
+    }
+
+    .contacts-block-white h2 {
+        font-size: 1.6rem;
+    }
+
+    .text-block {
+        flex-direction: column-reverse;
+        height: fit-content;
+        max-width: 100%;
+        margin-bottom: 250px;
+    }
+
+    .text-block .text-block-continer {
+        border-radius: 0 0 20px 20px;
+        height: fit-content;
+    }
+
+    .text-block .text-block-img {
+        border-radius: 20px 20px 0 0;
+    }
+
+    .submit {
+        margin-top: 50px;
+    }
+
+    #catalog {
+        overflow: scroll;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        background-color: transparent;
+    }
+
+    .back-holl {
+        display: none;
+    }
+
+    .holl {
+        margin-top: -200px;
+        width: 100%;
+        height: 300px;
+        justify-content: start;
+        align-items: center;
+        text-align: center;
+        z-index: -3;
+    }
+
+    .caroucel-wrap {
+        margin-left: -30px;
+        width: 100%;
+        z-index: -1;
+    }
+
+    .caroucel-item {
+        width: 100%;
+    }
+
+    .buttons {
+        display: none;
+    }
+
+    .zoom-btn {
+        display: none;
+    }
+}
+
+/* Further adjustments for even smaller screens max width 768px */
+@media (max-width: 768px) {
+    .menu-icon {
+        font-size: 2.19rem;
+    }
+
+    #hero h1 {
+        font-size: 2rem;
+    }
+
+    #hero p {
+        font-size: 1.5rem;
+    }
+
+    .caroucel-wrap {
+        left: 0;
+        width: 100%;
+    }
+}
+
+/* Further adjustments for even smaller screens max width 620px */
+
+@media (max-width: 480px) {
+    #contacts {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+        padding: 0;
+        gap: 10px;
+    }
+
+    #contacts .contacts-block {
+        margin-top: 0;
+        min-width: 100%;
+        width: auto;
+    }
+
+    #contacts .contacts-block-white {
+        min-width: 70%;
+        height: 600px;
+        margin-top: -50px;
+    }
+
+    #contacts .contacts-block-white h2 {
+        font-size: 1.2rem;
+        line-height: 1;
+    }
+
+    #contacts .contact-mobile-one {
+        margin-top: 0;
+        box-shadow: 0 -10px 6px rgba(0, 0, 0, 0.344);
+    }
+
+    #contacts .contact-mobile-two {
+        margin-top: 0;
+        box-shadow: 0 -10px 6px rgba(0, 0, 0, 0.344);
+    }
+
+#contacts .contact-mobile-none{
+    display: none;
+}
+}

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A brief description of your website content.">
+    <meta name="keywords" content="Add, Your, Keywords, Here">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="prefetch" href="image.jpg">
+    <meta name="robots" content="index,follow">
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Roboto&display=swap" as="style"
+        onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" as="style"
+        onload="this.onload=null;this.rel='stylesheet'">
+    <link href="https://fonts.cdnfonts.com/css/reality-hyper" rel="stylesheet">
+
+    <!-- Structured Data for SEO -->
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "Website",
+          "name": "Your Actual Website Name",
+          "url": "https://yourwebsite.com",
+          "description": "A brief description of your website and its purpose.",
+          "author": {
+            "@type": "Person",  // or "Organization" if it's a company
+            "name": "Author Name"
+          },
+          "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://yourwebsite.com/search?q={search_term_string}",
+            "query-input": "required name=search_term_string"
+          }
+        }
+    </script>
+    <title>Gbone Construction Ltd Gallery</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
+    <link rel="manifest" href="/icons/site.webmanifest">
+    <link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#13b67a">
+    <link rel="shortcut icon" href="/icons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#13b67a">
+    <meta name="msapplication-config" content="/icons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile-style.css">
+    <style>
+        .logo p {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+
+        <div class="logo"> <!-- Logo section with company name and image -->
+            <a href="index.html">
+                <p>GB<span>ONE</span></p>
+            </a>
+            <a href="index.html"><img src="img/png/logo-square.png" alt="Company Logo"></a>
+        </div>
+
+        <nav> <!-- Navigation with hamburger menu for mobile -->
+            <div class="menu-icon" id="menu-icon" data-active="false">
+                <i class="fa-solid fa-bars"></i>
+                <i class="fa-solid fa-times" style="display: none;"></i>
+            </div>
+            <ul class="menu" id="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#work">Works</a></li>
+                <li><a href="index.html#service">Services</a></li>
+                <li><a href="index.html#aboutus">About</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+                <li class="active"><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="gallery">
+        <h1>Photo Gallery</h1>
+        <div class="gallery-container">
+            <div class="gallery-item">
+                <img src="img/jpeg/kitchen-eight.jpg" alt="Photo 1">
+                <div class="gallery-caption">Photo 1</div>
+            </div>
+            <div class="gallery-item">
+                <img src="img/jpeg/kitchen-eleven.jpg" alt="Photo 2">
+                <div class="gallery-caption">Photo 2</div>
+            </div>
+            <div class="gallery-item">
+                <img src="img/jpeg/kitchen-fifteen.jpg" alt="Photo 3">
+                <div class="gallery-caption">Photo 3</div>
+            </div>
+            <div class="gallery-item">
+                <img src="img/jpeg/kitchen-five.jpg" alt="Photo 4">
+                <div class="gallery-caption">Photo 4</div>
+            </div>
+            <div class="gallery-item">
+                <img src="img/jpeg/kitchen-four.jpg" alt="Photo 5">
+                <div class="gallery-caption">Photo 5</div>
+            </div>
+            <div class="gallery-item">
+                <img src="img/jpeg/kitchen-fourteen.jpg" alt="Photo 6">
+                <div class="gallery-caption">Photo 6</div>
+            </div>
+        </div>
+        <!-- Fullscreen image container -->
+        <div class="fullscreen-container" id="fullscreenContainer">
+            <img src="" alt="Fullscreen Image" id="fullscreenImage">
+            <button class="close-btn" id="closeFullscreen">✕</button>
+        </div>
+    </section>
+
+    <!-- Footer section with social media links -->
+    <footer>
+        <ul class="social-links">
+            <li><a href="https://x.com" target="_blank" aria-label="X">
+                    <img src="img/png/x.png" alt="X Icon">
+                </a></li>
+            <li><a href="https://facebook.com" target="_blank" aria-label="Facebook">
+                    <img src="img/png/facebook.png" alt="Facebook Icon">
+                </a></li>
+            <li><a href="https://instagram.com" target="_blank" aria-label="Instagram">
+                    <img src="img/png/instagram.png" alt="Instagram Icon">
+                </a></li>
+            <li><a href="https://linkedin.com" target="_blank" aria-label="LinkedIn">
+                    <img src="img/png/linkedin.png" alt="LinkedIn Icon">
+                </a></li>
+        </ul>
+        <p>&copy; 2024 Gbone. All rights reserved.</p>
+    </footer>
+    <script>
+
+    </script>
+    <script src="scripts/script.js"></script>
+    <script>
+        // Get all gallery images and the full-screen elements
+        const galleryItems = document.querySelectorAll('.gallery-item img');
+        const fullscreenContainer = document.getElementById('fullscreenContainer');
+        const fullscreenImage = document.getElementById('fullscreenImage');
+        const closeFullscreen = document.getElementById('closeFullscreen');
+
+        // Add click event to each gallery image
+        galleryItems.forEach(image => {
+            image.addEventListener('click', () => {
+                fullscreenImage.src = image.src; // Set the full-screen image source
+                fullscreenContainer.style.display = 'flex'; // Show the full-screen container
+            });
+        });
+
+        // Close full-screen when the close button is clicked
+        closeFullscreen.addEventListener('click', () => {
+            fullscreenContainer.style.display = 'none'; // Hide the full-screen container
+        });
+
+        // Optional: Close full-screen when clicking outside the image
+        fullscreenContainer.addEventListener('click', (e) => {
+            if (e.target !== fullscreenImage) {
+                fullscreenContainer.style.display = 'none';
+            }
+        });
+    </script>
+</body>
+
+</html>
